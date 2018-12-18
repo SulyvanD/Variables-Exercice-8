@@ -16,7 +16,7 @@ namespace Variables___Exercice_8
             Console.WriteLine("Quel est le rayon du cercle ? (r)");
             rayon = int.Parse(Console.ReadLine());
             perimetre = 2 * Math.PI * rayon;
-            aire = Math.PI * rayon;
+            aire = Math.PI * Math.Pow(rayon, 2);
 
             Console.WriteLine("Le périmètre du cercles est de " + perimetre + " cm");
             Console.WriteLine("L'aire du cercle est de " + aire + " cm2");
