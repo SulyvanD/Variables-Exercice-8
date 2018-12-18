@@ -11,13 +11,15 @@ namespace Variables___Exercice_8
         static void Main(string[] args)
         {
             int rayon;
-            double perimetre;
+            double perimetre, aire;
 
             Console.WriteLine("Quel est le rayon du cercle ? (r)");
             rayon = int.Parse(Console.ReadLine());
             perimetre = 2 * Math.PI * rayon;
+            aire = Math.PI * rayon;
 
             Console.WriteLine("Le périmètre du cercles est de " + perimetre + " cm");
+            Console.WriteLine("L'aire du cercle est de " + aire + " cm2");
         }
     }
 }
